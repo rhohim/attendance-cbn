@@ -30,7 +30,7 @@ def upload_files():
         # Process the DataFrames
         df_final = pd.DataFrame(columns=['Name', 'Record date', 'Time in', 'Time out', 'Late Time'])
         date = datetime.date(1, 1, 1)
-        check_in = datetime.time(8, 30, 0)
+        check_in = datetime.time(7, 30, 0)
         check_out = datetime.time(18, 0, 0)
 
         df_date = df_file1['Record Date'].unique()
